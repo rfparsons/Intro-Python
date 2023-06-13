@@ -1,0 +1,63 @@
+You are online shopping at SuperAwesomeCouponDealsAndStuff.com. They offer two types of discounts. The first is a cash-off coupon, that you earn by shopping. You may apply one $5 or $10 cash off coupon per order. The second coupon is a percent discount coupon for 10%, 15%, or 20% off. If you have a cash-off coupon, it must be applied first, then apply up to 1 percent discount coupons on the pre-tax amount. Then you must add tax at 6% and finally shipping according to these guidelines:
+
+up to $10 dollars (inclusive), shipping is $5.95
+$10 and up to $30 dollars (inclusive), shipping is $7.95
+$30 and up to $50 dollars (inclusive), shipping is $11.95
+Shipping is free for over $50
+In this program, you will write a function (or functions) that accepts the amount of the purchase, the cash coupon, and the percent coupon.  It will calculate and return the total order item.
+
+For instance, you have $5 off and a 15% coupon and your item is $15.99, you will first take
+
+15.99 - 5 = 10.99.
+15% off 10.99 to get $9.34
+Add tax to get $9.90
+Add shipping cost after tax to get $15.85
+Write a function calculate_order(price,cash_coupon,percent_coupon) that first returns pass.
+
+Start with your tests, write all combinations you can think of. You will have multiple tests for each of the ranges.
+
+Test set 1:, price under 10
+price: under 10, 5 cash, 10%
+price: under 10, 5 cash, 15%
+price: under 10, 5 cash, 20%
+price: under 10, 10 cash, 10%
+?
+?
+Write the first test set with failing tests
+Write your if statement to handle cases above
+Test set 2: price 10 to less than 30
+price: 10 to up to 30, 5 cash, 10%
+?
+?
+?
+?
+?
+Write the second test set with failing tests
+Write your if statement to handle cases above
+Test set 3: price 10 to less than 50
+price: 30 to up to 50, 5 cash, 10%
+?
+?
+?
+?
+?
+Write the third test set with failing tests
+Write your if statement to handle cases above
+Test set 4: price 50 or over
+price: 50 and above, 5 cash, 10%
+?
+?
+?
+?
+?
+?
+Write the fourth test set with failing tests
+Write your if statement to handle cases above
+There are around ~44-48 test cases to cover all reasonable scenarios.  You should set up at least 7-10 tests.  To make things a bit easier, I've included this spreadsheet with test cases you could use.
+
+ test combinations.xlsx
+
+ 
+The if statements you write will be simpler than the amount of unit tests you are writing may indicate.
+
+Submit your .py files separately.

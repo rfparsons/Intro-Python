@@ -1,0 +1,10 @@
+supplier,part_name,part_no,quantity,price,total
+AndyMark,500EX Hex Hub,am-2568,1,10.0,=SUM(D2 * E2)
+AndyMark,"Pulley, 42 Tooth",am-2234,2,9.0,=SUM(D3 * E3)
+AndyMark,42 Tooth Pulley Extension,am-2813,1,4.0,=SUM(D4 * E4)
+AndyMark,4 in. DuraOmni Wheel,am-3047,1,24.0,=SUM(D5 * E5)
+AndyMark,500EX Hex Hub,am-2568,1,10.0,=SUM(D6 * E6)
+AndyMark,"Pulley, 42 Tooth",am-2234,1,9.0,=SUM(D7 * E7)
+REV Robotics,SPARK Motor Controller,rev-11-1200 ,8,40.0,=SUM(D8 * E8)
+AndyMark,AndyMark 775 RedLine Motor,am-3775a,5,19.0,=SUM(D9 * E9)
+REV Robotics,NEO Brushless Motor,rev-21-1650 ,4,40.0,=SUM(D10 * E10)
